@@ -1,0 +1,24 @@
+header{font-family: sans-serif;}
+
+*{margin: 0px;
+padding: 0px;}
+
+.cabecalho{background-color: rgba(6,19,95,0.705);
+color: white;
+display: flex;
+padding: 30px;
+font-size: 24px;
+justify-content: space-around;}
+
+.cabecalho-imagem{width: 150px;
+height: 150px;}
+
+.cabecalho-item{display: inline-block;
+padding: 0 100px;}
+
+.turma{background-image: linear-gradient(rgba(6,19,95,0.705), rgba(181,183,194,0.705));}
+
+.turma-titulo{padding-bottom: 30px;
+text-align: center;}
+
+.turma-imagem{width: 300px;}
