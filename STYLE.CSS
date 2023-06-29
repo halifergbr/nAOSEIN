@@ -1,24 +1,95 @@
-header{font-family: sans-serif;}
-
+                                    /* SELETOR UNIVERSAL */
 *{margin: 0px;
 padding: 0px;}
 
-.cabecalho{background-color: rgba(6,19,95,0.705);
+                                            /*CORPO DA PÁGINA  */
+
+body{font-family: sans-serif;}
+
+                                            /* SECÇAO CABEÇALHO */
+
+.cabecalho{background-color: rgba(39, 3, 59, 0.877);
 color: white;
 display: flex;
 padding: 30px;
-font-size: 24px;
+font-size: 20px;
 justify-content: space-around;}
 
-.cabecalho-imagem{width: 150px;
+.cabecalho-imagem{width: 400px;
 height: 150px;}
 
 .cabecalho-item{display: inline-block;
-padding: 0 100px;}
+padding: 0 30px;}
 
-.turma{background-image: linear-gradient(rgba(6,19,95,0.705), rgba(181,183,194,0.705));}
+                                            /* SECÇAO ESBOCO */
 
-.turma-titulo{padding-bottom: 30px;
-text-align: center;}
+.esboco{background-image: linear-gradient(rgba(131, 22, 189, 0.758), rgba(169, 72, 194, 0.705));}
 
-.turma-imagem{width: 300px;}
+.esboco-titulo{background-color: rgba(169, 72, 194, 0.705);
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.esboco-paragrafo-um{
+    font-size: 22px;
+}
+
+.esboco-paragrafo-dois{
+    font-size: 22px;
+}
+
+
+.esboco-div{display: flex;
+justify-content: center;
+font-size: 30px;
+padding: 0 200px;}
+
+.esboco-imagem{
+    width: 500px;
+    padding: 40px;
+    margin: 10px;
+}
+
+                                        /*SECÇAO FOTOS*/
+.fotos{background-image: linear-gradient rgba(169, 72, 194, 0.705);
+}
+
+.foto-imagem{
+    width: 250px;
+    height: 250px;
+}
+
+.foto-imagem-final{
+    width: 250px;
+}
+
+                                            /* SECÇAO INTEGRANTE */
+
+.integrante{background-image: linear-gradient(rgba(169, 72, 194, 0.705), rgba(169, 72, 194, 0.705));}
+
+.integrante-titulo{background-color: (169, 72, 194, 0.705);
+    text-align: center;
+    font-size: 26px;
+    padding: 30px 0;}
+
+.integrante-todos{display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;}
+
+.integrante-div{text-align: center;}
+
+.integrante-imagem{width: 100px;
+    margin:0 50px;}
+
+.integrante-icone{width: 30px;
+    padding: 30px;}
+
+.integrante-legenda{font-size: 10px;}
+
+                                        /* RODAPÉ */
+
+.rodape{background-color: black;
+color: white;
+text-align: center;
+padding: 30px 0;}
