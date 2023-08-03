@@ -39,6 +39,10 @@
                                         .esboco-paragrafo-dois{
                                             font-size: 22px;
                                         }
+
+                                        .esboco-paragrafo-tres{
+                                            font-size: 22px;
+                                        }
                                         
                                         
                                         .esboco-div{display: flex;
@@ -63,7 +67,7 @@
                                                 margin: 10px;}
                                         
                                                                                 /*SECÇAO FOTOS*/
-                                        .fotos{background-image:linear-gradient( rgba(169, 72, 194, 0.705), rgba(131, 22, 189, 0.758));
+                                        .fotos{background-image:linear-gradient( rgba(77, 81, 190, 0.614), rgba(22, 27, 189, 0.614));
                                         }
                                         
                                         .foto-imagem{
@@ -97,6 +101,7 @@
                                         
                                         .foto-imagem-seis{
                                         width: 270px;
+                                         position: relative;
                                         }
                                         
                                         .foto-imagem-final{
@@ -109,9 +114,9 @@
                                         
                                                                                     /* SECÇAO INTEGRANTE */
                                         
-                                        .integrante{background-image: linear-gradient(rgba((169, 72, 194, 0.705), ), rgba(131, 22, 189, 0.758));}
+                                        .integrante{background-image: linear-gradient( rgba(22, 27, 189, 0.614), rgba(22, 27, 189, 0.614));}
                                         
-                                        .integrante-titulo{background-color: rgba(131, 22, 189, 0.758);
+                                        .integrante-titulo{background-color: rgba(22, 27, 189, 0.614);
                                             text-align: center;
                                             font-size: 17px;
                                             padding: 17px 0;}
