@@ -8,7 +8,7 @@
                                         
                                                                                     /* SECÇAO CABEÇALHO */
                                         
-                                        .cabecalho{background-color: rgba(51, 7, 74, 0.913);
+                                        .cabecalho{background-color: rgb(50, 5, 74);
                                         color: white;
                                         display: flex;
                                         padding: 30px;
@@ -22,7 +22,7 @@
                                         
                                                                                     /* SECÇAO PROJETO */
                                         
-                                        .projeto{background-image: linear-gradient(rgba(131, 22, 189, 0.758), rgba(67, 9, 81, 0.705));
+                                        .projeto{background-image: linear-gradient(rgba(50, 5, 74), rgba(67, 9, 81, 0.705));
                                         padding: 30px;}
                                         
                                         .projeto-titulo{
@@ -42,7 +42,7 @@
                                         }
 
                                                             /* SECÇAO APRESENTAÇÃO */
-                                        .apresentacao{background-image: linear-gradient(rgba(131, 22, 189, 0.758), rgba(67, 9, 81, 0.705));
+                                        .apresentacao{background-image: linear-gradient(rgba(67, 9, 81, 0.705), rgba(100, 14, 96, 0.705));
                                                                 padding: 30px;}
 
                                         .apresentacao-titulo {
@@ -65,15 +65,15 @@
 
                                                                                /*SECÇAO FOTOS*/
 
-                                     .fotos{background-image:linear-gradient( rgba(85, 6, 81, 0.614), rgba(238, 10, 165, 0.614));
+                                     .fotos{background-image:linear-gradient( rgba(100, 14, 96, 0.705), rgba(12, 65, 121, 0.797));
                                                                                }
                                         .projeto-imagem-2{
-                                            width: 500px;
+                                            width: 400px;
                                             padding: 40px;
                                             margin: 10px;}
                                         
                                          .projeto-imagem-3{
-                                           width: 500px;
+                                           width: 400px;
                                             padding: 40px;
                                                 margin: 10px;}
                                         
@@ -124,9 +124,9 @@
                                         
                                                                                     /* SECÇAO INTEGRANTE */
                                         
-                                        .integrante{background-image: linear-gradient( rgba(22, 27, 189, 0.614), rgba(22, 27, 189, 0.614));}
+                                        .integrante{background-image: linear-gradient( rgba(12, 65, 121, 0.797), rgba(13, 1, 41));}
                                         
-                                        .integrante-titulo{background-color: rgba(22, 27, 189, 0.614);
+                                        .integrante-titulo{
                                             text-align: center;
                                             font-size: 24px;
                                             padding: 17px 0;}
@@ -146,7 +146,7 @@
                                         
                                                                                 /* RODAPÉ */
                                         
-                                        .rodape{background-color: black;
+                                        .rodape{background-color: rgb(13, 1, 41);
                                         color: white;
                                         text-align: center;
                                         padding: 30px 0;}
