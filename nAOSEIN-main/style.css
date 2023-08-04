@@ -8,67 +8,77 @@
                                         
                                                                                     /* SECÇAO CABEÇALHO */
                                         
-                                        .cabecalho{background-color: rgba(131, 22, 189, 0.758);
+                                        .cabecalho{background-color: rgba(51, 7, 74, 0.913);
                                         color: white;
                                         display: flex;
                                         padding: 30px;
                                         font-size: 20px;
                                         justify-content: space-around;}
                                         
-                                        .cabecalho-imagem{width: 400px;
-                                        height: 200px;}
+                                        .cabecalho-imagem{width: 200px;  }
                                         
                                         .cabecalho-item{display: inline-block;
                                         padding: 0 30px;}
                                         
-                                                                                    /* SECÇAO ESBOCO */
+                                                                                    /* SECÇAO PROJETO */
                                         
-                                        .esboco{background-image: linear-gradient(rgba(131, 22, 189, 0.758), rgba(169, 72, 194, 0.705));}
+                                        .projeto{background-image: linear-gradient(rgba(131, 22, 189, 0.758), rgba(67, 9, 81, 0.705));
+                                        padding: 30px;}
                                         
-                                        .esboco-titulo{background-color: rgb(169, 72, 194, 0.705);
-                                            color: white;
+                                        .projeto-titulo{
                                             padding-bottom: 20px;
                                             text-align: center;
                                             font-size: 30px;
                                         }
-                                        
-                                        .esboco-paragrafo-um{
-                                            font-size: 22px;
-                                        }
-                                        
-                                        .esboco-paragrafo-dois{
-                                            font-size: 22px;
+                                        .projeto-imagem{
+                                            width: 500px;
+                                            padding: 0 100px;
                                         }
 
-                                        .esboco-paragrafo-tres{
-                                            font-size: 22px;
+                                        .projeto-texto{ font-size: 30px;
+                                            margin: 50px;
+                                            padding: 20px;
+                                            text-align: center;
                                         }
-                                        
-                                        
-                                        .esboco-div{display: flex;
-                                        justify-content: center;
+
+                                                            /* SECÇAO APRESENTAÇÃO */
+                                        .apresentacao{background-image: linear-gradient(rgba(131, 22, 189, 0.758), rgba(67, 9, 81, 0.705));
+                                                                padding: 30px;}
+
+                                        .apresentacao-titulo {
+                                          padding: 20px;
+                                          font-size: 26px;
+
+                                                                }
+
+                                        .apresentacao-paragrafo{
+                                            font-size: 26px;
+                                        }
+
+                                        .apresentacao-paragrafo-R{
+                                            font-size: 20px;
+                                        }
+
+                                        .projeto-div{display: flex;   
                                         font-size: 30px;
                                         padding: 0 200px;}
-                                        
-                                        .esboco-imagem{
-                                            width: 700px;
-                                            padding: 40px;
-                                            margin: 10px;
-                                        }
-                                        
-                                        .esboco-imagem-2{
+
+                                                                               /*SECÇAO FOTOS*/
+
+                                     .fotos{background-image:linear-gradient( rgba(85, 6, 81, 0.614), rgba(238, 10, 165, 0.614));
+                                                                               }
+                                        .projeto-imagem-2{
                                             width: 500px;
                                             padding: 40px;
                                             margin: 10px;}
                                         
-                                         .esboco-imagem-3{
+                                         .projeto-imagem-3{
                                            width: 500px;
                                             padding: 40px;
                                                 margin: 10px;}
                                         
-                                                                                /*SECÇAO FOTOS*/
-                                        .fotos{background-image:linear-gradient( rgba(77, 81, 190, 0.614), rgba(22, 27, 189, 0.614));
-                                        }
+                                                                               
+                                       
                                         
                                         .foto-imagem{
                                             width: 450px;
@@ -118,7 +128,7 @@
                                         
                                         .integrante-titulo{background-color: rgba(22, 27, 189, 0.614);
                                             text-align: center;
-                                            font-size: 17px;
+                                            font-size: 24px;
                                             padding: 17px 0;}
                                         
                                         .integrante-todos{display: grid;
@@ -132,7 +142,7 @@
                                         .integrante-icone{width: 45px;
                                             padding: 45px;}
                                         
-                                        .integrante-legenda{font-size: 20px;}
+                                        .integrante-legenda{font-size: 18px;}
                                         
                                                                                 /* RODAPÉ */
                                         
