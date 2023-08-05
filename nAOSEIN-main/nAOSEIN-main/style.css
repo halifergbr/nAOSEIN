@@ -1,0 +1,152 @@
+                                    /* SELETOR UNIVERSAL */
+                                    *{margin: 0px;
+                                        padding: 0px;}
+                                        
+                                                                                    /*CORPO DA PÁGINA  */
+                                        
+                                        body{font-family: sans-serif;}
+                                        
+                                                                                    /* SECÇAO CABEÇALHO */
+                                        
+                                        .cabecalho{background-color: rgb(50, 5, 74);
+                                        color: white;
+                                        display: flex;
+                                        padding: 30px;
+                                        font-size: 20px;
+                                        justify-content: space-around;}
+                                        
+                                        .cabecalho-imagem{width: 200px;  }
+                                        
+                                        .cabecalho-item{display: inline-block;
+                                        padding: 0 30px;}
+                                        
+                                                                                    /* SECÇAO PROJETO */
+                                        
+                                        .projeto{background-image: linear-gradient(rgba(50, 5, 74), rgba(67, 9, 81, 0.705));
+                                        padding: 30px;}
+                                        
+                                        .projeto-titulo{
+                                            padding-bottom: 20px;
+                                            text-align: center;
+                                            font-size: 30px;
+                                        }
+                                        .projeto-imagem{
+                                            width: 500px;
+                                            padding: 0 100px;
+                                        }
+
+                                        .projeto-texto{ font-size: 30px;
+                                            margin: 50px;
+                                            padding: 20px;
+                                            text-align: center;
+                                        }
+
+                                                            /* SECÇAO APRESENTAÇÃO */
+                                        .apresentacao{background-image: linear-gradient(rgba(67, 9, 81, 0.705), rgba(100, 14, 96, 0.705));
+                                                                padding: 30px;}
+
+                                        .apresentacao-titulo {
+                                          padding: 20px;
+                                          font-size: 26px;
+
+                                                                }
+
+                                        .apresentacao-paragrafo{
+                                            font-size: 26px;
+                                        }
+
+                                        .apresentacao-paragrafo-R{
+                                            font-size: 20px;
+                                        }
+
+                                        .projeto-div{display: flex;   
+                                        font-size: 30px;
+                                        padding: 0 200px;}
+
+                                                                               /*SECÇAO FOTOS*/
+
+                                     .fotos{background-image:linear-gradient( rgba(100, 14, 96, 0.705), rgba(12, 65, 121, 0.797));
+                                                                               }
+                                        .projeto-imagem-2{
+                                            width: 400px;
+                                            padding: 40px;
+                                            margin: 10px;}
+                                        
+                                         .projeto-imagem-3{
+                                           width: 400px;
+                                            padding: 40px;
+                                                margin: 10px;}
+                                        
+                                                                               
+                                       
+                                        
+                                        .foto-imagem{
+                                            width: 450px;
+                                            height: 350px;
+                                        }
+                                        
+                                        .foto-imagem-um{
+                                            width: 450px;
+                                            height: 450px;
+                                        }
+                                        
+                                        .foto-imagem-dois{
+                                        width: 370px;
+                                        }
+                                        
+                                        .foto-imagem-tres{
+                                        width: 350px;
+                                            height: 350px;
+                                        }
+                                        
+                                        .foto-imagem-quatro{
+                                        width: 390px;
+                                            height: 359px;
+                                        }
+                                        
+                                        .foto-imagem-cinco{
+                                        width: 350px;
+                                            height: 350px;
+                                        }
+                                        
+                                        .foto-imagem-seis{
+                                        width: 270px;
+                                         position: relative;
+                                        }
+                                        
+                                        .foto-imagem-final{
+                                            width: 1500px;
+                                            height: 600px;
+                                            justify-content: center;
+                                            margin: auto;
+                                            padding:0 100px;
+                                        }
+                                        
+                                                                                    /* SECÇAO INTEGRANTE */
+                                        
+                                        .integrante{background-image: linear-gradient( rgba(12, 65, 121, 0.797), rgba(13, 1, 41));}
+                                        
+                                        .integrante-titulo{
+                                            text-align: center;
+                                            font-size: 24px;
+                                            padding: 17px 0;}
+                                        
+                                        .integrante-todos{display: grid;
+                                        grid-template-columns: 20% 20% 20% 20% 20%;}
+                                        
+                                        .integrante-div{text-align: center;}
+                                        
+                                        .integrante-imagem{width: 100px;
+                                            margin:0 50px;}
+                                        
+                                        .integrante-icone{width: 45px;
+                                            padding: 45px;}
+                                        
+                                        .integrante-legenda{font-size: 18px;}
+                                        
+                                                                                /* RODAPÉ */
+                                        
+                                        .rodape{background-color: rgb(13, 1, 41);
+                                        color: white;
+                                        text-align: center;
+                                        padding: 30px 0;}
